@@ -1,7 +1,6 @@
 
 int lectura_sensor;
 int luz = 12;
-String accion;
 
 String estado_led(){
   if (analogRead(A1)>0)
